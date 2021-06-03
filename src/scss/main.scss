@@ -1,0 +1,21 @@
+@import "variables/var";
+@import "lib/normalize";
+@import 'base/base';
+@import 'base/fonts';
+
+
+// modules
+@import "module/header";
+@import "module/main-content";
+@import "module/footer";
+// Главная страница
+@import "module/blocks/studio";
+@import "module/blocks/services";
+@import "module/blocks/advantages";
+@import "module/blocks/projects";
+@import "module/blocks/discuss";
+// Страница Услуги
+@import "module/blocks/create";
+
+@import "mixin/media";
+

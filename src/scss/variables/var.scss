@@ -1,0 +1,22 @@
+.btn {
+  background: transparent;
+  //position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 145%;
+  color: #09B9C5;
+  transition: all 0.3s ease;
+  &::after {
+    content: url("../assets/img/arrow-submit.svg");
+    padding-left: 15px;
+    //position: absolute;
+    vertical-align: -3px;
+    display: inline-block;
+    width: 54px;
+    height: 14px;
+  }
+  &:hover {
+    transition: all 0.3s ease;
+    color: #136F75;
+  }
+}

@@ -1,0 +1,49 @@
+.footer {
+  height: 146px;
+  padding-top: 36px;
+}
+
+.footer__wrap {
+  text-align: center;
+}
+
+.footer__call {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+}
+
+.footer__number {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  transition: all 300ms linear;
+  &:hover {
+    transition: all 300ms linear;
+    text-decoration: none;
+    color: #136F75;
+  }
+}
+
+.footer__text {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+}
+
+.footer__mail {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  transition: all 300ms linear;
+  &:hover {
+    transition: all 300ms linear;
+    text-decoration: none;
+    color: #136F75;
+  }
+}

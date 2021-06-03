@@ -1,0 +1,40 @@
+.discuss {
+  background: #22272C;
+  height: 431px;
+  padding-top: 120px;
+}
+
+.discuss__wrapper {
+  text-align: center;
+}
+
+.discuss__title {
+  position: relative;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 135%;
+  color: #FFFFFF;
+  display: inline-block;
+  &::after {
+    position: absolute;
+    top: 45px;
+    left: -4%;
+    display: block;
+    content: '';
+    height: 10px;
+    width: 95%;
+    background-color: rgba(9, 185, 197, 0.7);
+  }
+}
+
+.discuss__desc {
+  margin-top: 19px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+}
+
+.discuss__button {
+  margin-top: 11px;
+}

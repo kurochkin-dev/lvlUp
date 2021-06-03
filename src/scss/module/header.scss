@@ -1,0 +1,58 @@
+.header {
+  height: 80px;
+  position: relative;
+}
+
+.hamburger__menu {
+  padding-right: 15px;
+}
+
+.nav__list-hamburger {
+  padding-right: 15px;
+  display: flex;
+}
+
+.menu__link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 145%;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+  &:hover {
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #136F75;
+  }
+}
+
+.menu__item {
+  margin-left: 50px;
+}
+
+.header__logo {
+  margin-top: 20px;
+}
+
+.header__nav {
+  position: absolute;
+  display: flex;
+  right: 0;
+  margin-top: 28px;
+}
+
+.navbar-toggler {
+  float: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 145%;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transition: all 0.3s ease;
+    color: #136F75;
+  }
+}
