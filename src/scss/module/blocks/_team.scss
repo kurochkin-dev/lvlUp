@@ -1,0 +1,37 @@
+.team {
+  padding-top: 89px;
+  min-height: 835px;
+}
+
+.team__slogan {
+  max-width: 641px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  margin-bottom: 101px;
+}
+
+.team__line {
+  position: absolute;
+  height: 10px;
+  width: 349px;
+  border: none;
+  background: #09B9C5;
+}
+
+.team__title {
+  margin-top: 38px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.team__desc {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #EAEAEA;
+}
