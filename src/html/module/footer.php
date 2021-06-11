@@ -17,7 +17,7 @@
     </div>
 </footer>
 <script src="../js/jquery-3.6.0.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <!--<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>-->
 <script src="../js/swiper-bundle.min.js"></script>
 <script src="../js/main.js"></script>

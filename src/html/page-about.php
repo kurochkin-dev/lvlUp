@@ -9,7 +9,7 @@ include 'module/header.php'
             <div class="col-12 col-lg-12 col-xl-12 col-md-12 col-sm-12">
                 <h1 class="create__title create-about__title">Мы добиваемся долгосрочных результатов
                     и несем за них ответственность.</h1>
-                <button class="create__btn btn">Заказать сайт</button>
+                <button class="create__btn create-about__btn btn">Заказать сайт</button>
             </div>
         </div>
     </div>

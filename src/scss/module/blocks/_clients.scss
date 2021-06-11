@@ -1,0 +1,49 @@
+.clients {
+  background: #22272C;
+  height: 491px;
+  position: relative;
+  padding-top: 134px;
+}
+
+.clients__title {
+  top: 35%;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  transform: rotate(-90deg);
+  position: absolute;
+}
+
+.clients__subtitle {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.clients__desc {
+  max-width: 606px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.clients-img__wrap {
+  margin-top: 80px;
+}
+
+.clients-img {
+  margin-top: 15px;
+  margin-right: 60px;
+}
+
+.clients__btn {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 280px;
+}

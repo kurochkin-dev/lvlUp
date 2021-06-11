@@ -1,5 +1,8 @@
 .btn {
   background: transparent;
+  min-width: 250px;
+  height: 60px;
+  padding: 0;
   //position: relative;
   font-weight: 500;
   font-size: 18px;
@@ -7,13 +10,13 @@
   color: #09B9C5;
   transition: all 0.3s ease;
   &::after {
-    content: url("../assets/img/arrow-submit.svg");
+    content: url("../assets/img/arrow-submitwithellipse.svg");
     padding-left: 15px;
     //position: absolute;
-    vertical-align: -3px;
+    vertical-align: -17px;
     display: inline-block;
-    width: 54px;
-    height: 14px;
+    width: 70px;
+    height: 48px;
   }
   &:hover {
     transition: all 0.3s ease;

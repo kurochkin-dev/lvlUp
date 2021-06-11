@@ -1,5 +1,5 @@
 .container {
-  //width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -16,6 +16,26 @@
   .project-slide__title {
     padding-right: 37px;
     font-size: 22px;
+  }
+
+  // page-services.php
+
+  .process__desc {
+    width: auto;
+  }
+
+  .create__line {
+    display: none;
+  }
+
+  //page-about.php
+
+  .clients {
+    padding-top: 70px;
+  }
+
+  .clients-img {
+    margin-right: 12px;
   }
 }
 
@@ -56,6 +76,21 @@
     left: 35%;
   }
 
+  // page-services.php
+
+  .create__title {
+    margin-top: 50px;
+  }
+
+
+  // page-about.php
+  .clients {
+    padding-top: 20px;
+  }
+
+  .clients-img {
+    margin-right: 11px;
+  }
 
 }
 
@@ -278,6 +313,35 @@
   .footer__text {
     margin-bottom: 0;
   }
+
+  // page-services.php
+  .create__title {
+    font-size: 67px;
+  }
+
+  .process {
+    padding-top: 50px;
+  }
+
+  .process__wrap-lower {
+    margin-top: 0;
+  }
+
+  // page-about.php
+
+  .clients {
+    padding-top: 70px;
+  }
+
+  .clients-img__wrap {
+    margin-top: 20px;
+  }
+
+  .clients__btn {
+    margin-top: 30px;
+    position: static;
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 620px) {
@@ -301,13 +365,30 @@
   .services__button {
     margin-top: 15px;
   }
+
+  // page-services.php
+
+  .create__title {
+    font-size: 56px;
+  }
+  .create__btn {
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+
+  // page-about.php
+
+
 }
 
 @media (max-width: 576px) {
   html {
-    overflow-x: hidden;
+    //overflow-x: hidden;
   }
 
+  .container {
+    //width: 576px;
+  }
 
   .studio__title {
     width: 400px;
@@ -316,6 +397,7 @@
   .services__desc {
     max-width: 395px;
   }
+
 
   .projects__title {
     display: none;
@@ -356,11 +438,45 @@
   .footer__text {
     text-align: left;
   }
+
+  // page-services.php
+
+  .create__title {
+    font-size: 48px;
+  }
+
+  .services__button {
+    margin-top: 5px;
+  }
+
+  .services__block-list {
+    margin-top: 15px;
+  }
+
+  // page-about.php
+  .clients {
+    padding-top: 15px;
+  }
+
+  .clients-img__wrap {
+    //display: none;
+  }
+
+
+}
+
+@media (max-width: 411px) {
+  .container {
+    //width: 400px;
+  }
+
 }
 
 
-
 @media (max-width: 380px) {
+  .container {
+    //width: 370px;
+  }
 
   .studio__wrap {
     margin-top: 70px;
@@ -421,11 +537,17 @@
   }
 
 
+  //page-about.php
+
+  .create-about__btn {
+    margin-top: 58px;
+  }
+
 }
 
 @media (max-width: 360px) {
   .container {
-    width: 360px;
+    //width: 350px;
   }
   .studio__wrap {
     margin-top: 50px;
@@ -479,15 +601,34 @@
   }
 
   .discuss__title {
+    padding: 0 5px;
     width: 315px;
   }
 
   .discuss__desc {
-    width: 315px;
+    padding: 0 5px;
+    width: 310px;
+  }
+
+  //page-about.php
+
+  .create-about__title {
+    margin: 0;
+  }
+
+  .create-about {
+    padding-top: 50px;
   }
 }
 
 @media (max-width: 320px) {
+  html {
+    //overflow-x: hidden;
+  }
+  .container {
+    //width: 315px;
+  }
+
   .studio__title {
     width: 310px;
   }
@@ -507,11 +648,50 @@
   .mod-block__wrap {
     width: 310px;
   }
+
+  // page-services.php
+
+  .create__title {
+    width: 310px;
+  }
+
+  //page-about.php
+
+  .create-about__title {
+    font-size: 44px;
+    margin: 0;
+  }
+
+  .team__line {
+    width: 310px;
+  }
+
+  .team__slogan {
+    width: 310px;
+  }
+
+  .clients__desc {
+    width: 310px;
+  }
+
+  .clients-img {
+    margin: 0;
+    width: 80%;
+  }
+
+  .we__desc {
+    width: 310px;
+    padding: 0 5px;
+  }
+
+  .footer__wrap {
+    width: 310px;
+  }
 }
 
 @media (max-width: 280px) {
   .container {
-    width: 280px;
+    //width: 280px;
   }
 
   .studio__title {
@@ -564,11 +744,67 @@
     width: 260px;
   }
 
+  .footer__wrap {
+    width: 270px;
+  }
+
   .footer__number {
     font-size: 22px;
   }
 
   .footer__mail {
     font-size: 22px;
+  }
+
+  .footer__call {
+    width: 270px;
+    margin: 0;
+  }
+
+  .footer__text {
+    width: 270px;
+    margin: 0;
+  }
+  // page-services.php
+
+  .services__block-list {
+    margin: 5px 0 5px 0;
+  }
+
+  //page-about.php
+
+  .create-about__title {
+    font-size: 38px;
+    width: 275px;
+  }
+
+  .team__line {
+    width: 275px;
+  }
+
+  .team__slogan {
+    width: 275px;
+    padding: 0 5px;
+    font-size: 24px;
+  }
+
+  .clients__desc {
+    width: 275px;
+    padding: 0 5px;
+  }
+
+  .clients__btn {
+    position: absolute;
+    top: 10%;
+    left: 0;
+  }
+
+  .we__desc {
+    width: 270px;
+    padding: 0 5px;
+  }
+
+  .we__title {
+    white-space: normal;
   }
 }

@@ -28,7 +28,7 @@
                         <span>
                 <ul class="nav__list-hamburger">
                     <li class="menu__item">
-                        <a href="#" class="menu__link">О нас</a>
+                        <a href="page-about.php" class="menu__link">О нас</a>
                     </li>
                     <li class="menu__item">
                         <a href="page-services.php" class="menu__link">Услуги</a>
