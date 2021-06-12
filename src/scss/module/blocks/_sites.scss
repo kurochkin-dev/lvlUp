@@ -1,0 +1,50 @@
+.sites {
+  min-height: 559px;
+  padding-top: 120px;
+  position: relative;
+}
+
+.sites__title {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  transform: rotate(-90deg);
+}
+
+.sites__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.sites__main-list {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  width: 161px;
+}
+
+.main-list__item {
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.sites__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+  max-width: 443px;
+  margin-bottom: 30px;
+}
+
+.sites__button {
+  margin-top: 6px;
+  padding-right: 50px;
+}

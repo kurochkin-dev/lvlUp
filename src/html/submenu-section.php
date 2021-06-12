@@ -8,7 +8,7 @@
             <div class="col-12 col-lg-3 col-xl-3 col-md-3 col-sm-12">
                 <ul class="services__main-list">
                     <li class="main-list__item">
-                        <a class="main-list__link" href="#">Разработка</a>
+                        <a class="main-list__link" href="page-development.php">Разработка</a>
                     </li>
                     <li class="main-list__item">
                         <a class="main-list__link" href="#">Дизайн</a>

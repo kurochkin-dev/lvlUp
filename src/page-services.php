@@ -3,7 +3,7 @@ include 'module/header.php';
 ?>
 
 <section class="create">
-    <hr class="create__line">
+    <hr class="create__line create__service-line">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-9 col-xl-9 col-md-12 col-sm-12">

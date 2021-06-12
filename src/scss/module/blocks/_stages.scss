@@ -1,0 +1,135 @@
+.stages {
+  min-height: 973px;
+  background: #22272C;
+  position: relative;
+  padding-top: 172px;
+}
+
+.stages__text {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  top: 35%;
+  right: 0;
+  transform: rotate(90deg);
+}
+
+.stages__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.stages__title {
+  position: relative;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  padding-bottom: 47px;
+  display: inline-block;
+  &::after {
+    position: absolute;
+    top: 25px;
+    left: -4%;
+    display: block;
+    content: '';
+    height: 10px;
+    width: 0;
+    background-color: rgba(9, 185, 197, 0.7);
+    transition: width 300ms linear;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    width: 95%;
+  }
+
+  &:hover {
+    color: #FFFFFF;
+  }
+}
+
+.stages__one-wrap {
+  position: relative;
+}
+
+.stages__two-wrap {
+  position: relative;
+}
+
+.stages__three-wrap {
+  position: relative;
+  margin-top: 92px;
+}
+
+.stages__four-wrap {
+  position: relative;
+  margin-top: 47px;
+}
+
+.stages__five-wrap {
+  position: relative;
+  margin-top: 104px;
+}
+
+.stages__six-wrap {
+  position: relative;
+  margin-top: 149px;
+}
+
+.stages__number {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  left: -16%;
+  bottom: 40%;
+}
+
+.stages__number-two {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  left: -16%;
+  bottom: 55%;
+}
+
+.stages__number-three {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  left: -16%;
+  bottom: 55%;
+}
+
+.stages__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+  max-width: 390px;
+  margin-bottom: 0;
+}
+
+.stages__block-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+}
