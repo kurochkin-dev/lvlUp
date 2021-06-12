@@ -62,14 +62,14 @@ include 'module/header.php';
                 <p class="stages__subtitle">Этапы работы</p>
             </div>
             <div class="col-12 col-xl-5 col-lg-5 col-md-12 col-sm-12">
-                <div class="stages__one-wrap">
+                <div class="stages__one-wrap block-limiter">
                     <span class="stages__number">01</span>
                     <h3 class="stages__title">Исследование</h3>
                     <p class="stages__desc">На первой встрече с клиентом мы знакомимся с его бизнесом и задачей, которую нам
                         предстоит решить.
                     </p>
                 </div>
-                <div class="stages__three-wrap">
+                <div class="stages__three-wrap block-limiter">
                     <span class="stages__number-three">03</span>
                     <h3 class="stages__title">Дизайн сайта</h3>
                     <ul class="stages__block-list">
@@ -86,7 +86,7 @@ include 'module/header.php';
                         </li>
                     </ul>
                 </div>
-                <div class="stages__five-wrap">
+                <div class="stages__five-wrap block-limiter">
                     <span class="stages__number">05</span>
                     <h3 class="stages__title">Backend программирование</h3>
                     <ul class="stages__block-list">
@@ -105,7 +105,7 @@ include 'module/header.php';
                 </div>
             </div>
             <div class="col-12 col-xl-5 col-lg-5 col-md-12 col-sm-12">
-                <div class="stages__two-wrap">
+                <div class="stages__two-wrap block-limiter">
                     <span class="stages__number-two">02</span>
                     <h3 class="stages__title">Проектирование</h3>
                     <ul class="stages__block-list">
@@ -119,13 +119,13 @@ include 'module/header.php';
                         <li class="block-list__item"><span class="block-list__marker"></span>прототипировани</li>
                     </ul>
                 </div>
-                <div class="stages__four-wrap">
+                <div class="stages__four-wrap block-limiter">
                     <span class="stages__number">04</span>
                     <h3 class="stages__title">Frontend разработка</h3>
                     <p class="stages__desc">Заботливо верстаем для корректного отображения на всех видах устройств.
                     </p>
                 </div>
-                <div class="stages__six-wrap">
+                <div class="stages__six-wrap block-limiter">
                     <span class="stages__number">06</span>
                     <h3 class="stages__title">Передача заказчику</h3>
                     <p class="stages__desc">Мы останемся с вами на всех этапах и поможем вашему менеджеру научиться работать на сайте. Также у нас вы можете заказать абонентское обслуживание сайта

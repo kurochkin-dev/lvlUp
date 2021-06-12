@@ -92,6 +92,20 @@
     margin-right: 11px;
   }
 
+  //page-development.php
+
+  .stages {
+    padding-top: 40px;
+  }
+
+  .block-limiter {
+    margin-top: 20px;
+  }
+
+  .stages__title {
+    padding-bottom: 15px;
+  }
+
 }
 
 
@@ -341,6 +355,12 @@
     margin-top: 30px;
     position: static;
     white-space: nowrap;
+  }
+
+  //page-devbeloppment.php
+
+  .stages__text {
+    display: none;
   }
 }
 
