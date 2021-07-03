@@ -2,10 +2,10 @@
 include 'module/header.php';
 ?>
 <section class="create create-dev">
-    <hr class="create__line create-dev__line">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                <hr class="create__line">
                 <h1 class="create__title create-dev__title">Мы не просто создаем сайты,
                     мы проектируем работающие бизнес-инструменты.</h1>
                 <button class="create__btn create-dev__btn btn">Заказать сайт</button>
@@ -14,15 +14,14 @@ include 'module/header.php';
     </div>
     <img class="create__dev-circle" src="../assets/img/dev-ellipse.svg" alt="Круг">
 </section>
-
 <section class="sites">
-    <h1 class="sites__title">Мы делаем</h1>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+                <p class="sites__text vertical-header">Мы делаем</p>
                 <p class="sites__subtitle">Наши услуги</p>
             </div>
-            <div class="col-12 col-lg-4 col-xl-4 col-md-4 col-sm-12">
+            <div class="col-12 col-lg-4 col-xl-4 col-md-6 col-sm-12">
                 <ul class="sites__main-list">
                     <li class="main-list__item">
                         <a class="main-list__link" href="#">Landing page</a>
@@ -59,18 +58,21 @@ include 'module/header.php';
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-2 col-xl-2 col-md-12 col-sm-12">
+                <p class="stages__text vertical-header">
+                    Этапы работы
+                </p>
                 <p class="stages__subtitle">Этапы работы</p>
             </div>
             <div class="col-12 col-xl-5 col-lg-5 col-md-12 col-sm-12">
                 <div class="stages__one-wrap block-limiter">
-                    <span class="stages__number">01</span>
+                    <span class="stages__number nums">01</span>
                     <h3 class="stages__title">Исследование</h3>
                     <p class="stages__desc">На первой встрече с клиентом мы знакомимся с его бизнесом и задачей, которую нам
                         предстоит решить.
                     </p>
                 </div>
                 <div class="stages__three-wrap block-limiter">
-                    <span class="stages__number-three">03</span>
+                    <span class="stages__number-three nums">03</span>
                     <h3 class="stages__title">Дизайн сайта</h3>
                     <ul class="stages__block-list">
                         <li class="block-list__item"><span class="block-list__marker"></span>разработка дизайн-концепции и
@@ -87,7 +89,7 @@ include 'module/header.php';
                     </ul>
                 </div>
                 <div class="stages__five-wrap block-limiter">
-                    <span class="stages__number">05</span>
+                    <span class="stages__number nums">05</span>
                     <h3 class="stages__title">Backend программирование</h3>
                     <ul class="stages__block-list">
                         <li class="block-list__item"><span class="block-list__marker"></span>
@@ -106,7 +108,7 @@ include 'module/header.php';
             </div>
             <div class="col-12 col-xl-5 col-lg-5 col-md-12 col-sm-12">
                 <div class="stages__two-wrap block-limiter">
-                    <span class="stages__number-two">02</span>
+                    <span class="stages__number-two nums">02</span>
                     <h3 class="stages__title">Проектирование</h3>
                     <ul class="stages__block-list">
                         <li class="block-list__item"><span class="block-list__marker"></span>разработка дизайн-концепции
@@ -120,13 +122,13 @@ include 'module/header.php';
                     </ul>
                 </div>
                 <div class="stages__four-wrap block-limiter">
-                    <span class="stages__number">04</span>
+                    <span class="stages__number nums">04</span>
                     <h3 class="stages__title">Frontend разработка</h3>
                     <p class="stages__desc">Заботливо верстаем для корректного отображения на всех видах устройств.
                     </p>
                 </div>
                 <div class="stages__six-wrap block-limiter">
-                    <span class="stages__number">06</span>
+                    <span class="stages__number nums">06</span>
                     <h3 class="stages__title">Передача заказчику</h3>
                     <p class="stages__desc">Мы останемся с вами на всех этапах и поможем вашему менеджеру научиться работать на сайте. Также у нас вы можете заказать абонентское обслуживание сайта
                     </p>
@@ -134,20 +136,14 @@ include 'module/header.php';
             </div>
         </div>
     </div>
-    <h1 class="stages__text">
-        Этапы работы
-    </h1>
 </section>
-<?php
-$slider = 'projects-slider-section.php';
-if (isset($slider)) {
-    echo '<style>
-    .projects__title {
-    transform: rotate(-90deg) translate(0, -1000%);
-    
+<style>
+    .projects__text {
+    transform: rotate(-90deg) translate(0, -970%);
+
     }
-</style>';
-}
+</style>
+<?php
 include 'projects-slider-section.php';
 include 'discuss-section.php';
 include 'module/footer.php';

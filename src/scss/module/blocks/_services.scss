@@ -3,16 +3,11 @@
   position: relative;
 }
 
-.services__title {
-  font-weight: 500;
-  padding: 0;
+.services__text {
   position: absolute;
-  bottom: 205px;
-  margin: 0;
-  font-size: 100px;
-  line-height: 145%;
-  color: #FFFFFF;
-  opacity: 0.02;
+  white-space: nowrap;
+  bottom: 100px;
+  left: -300px;
   transform: rotate(-90deg);
 }
 

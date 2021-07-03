@@ -1,47 +1,33 @@
-.sites {
-  min-height: 559px;
+.promo {
+  min-height: 500px;
   padding-top: 120px;
   position: relative;
 }
 
-.sites__text {
+.promo__text {
   position: absolute;
   white-space: nowrap;
-  bottom: 45px;
-  left: -320px;
+  left: -150%;
+  bottom: 30%;
 }
 
-.sites__subtitle {
+.promo__subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 145%;
   color: #FFFFFF;
 }
 
-.sites__main-list {
+.promo__main-list {
   font-weight: 500;
   font-size: 28px;
   line-height: 145%;
   color: #FFFFFF;
-  width: 161px;
 }
 
-.main-list__item {
-  &:first-child {
-    margin-top: 0;
-  }
-}
-
-.sites__desc {
+.promo__desc {
   font-weight: normal;
   font-size: 16px;
   line-height: 145%;
   color: #CCCCCC;
-  max-width: 443px;
-  margin-bottom: 30px;
-}
-
-.sites__button {
-  margin-top: 6px;
-  padding-right: 50px;
 }

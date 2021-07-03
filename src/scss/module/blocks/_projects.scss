@@ -2,6 +2,7 @@
   height: 739px;
   padding-top: 120px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .projects__subtitle {
@@ -27,19 +28,14 @@
   padding-top: 115px;
   padding-right: 15px;
   padding-left: 15px;
+  cursor: pointer;
 }
 
-.projects__title {
-  font-weight: 500;
-  padding: 0;
+.projects__text {
   position: absolute;
-  bottom: 300px;
-  right: 0;
+  bottom: 70px;
+  right: -400px;
   margin: 0;
-  font-size: 100px;
-  line-height: 145%;
-  color: #FFFFFF;
-  opacity: 0.02;
   transform: rotate(-270deg);
 }
 

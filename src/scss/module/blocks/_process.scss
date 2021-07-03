@@ -2,6 +2,7 @@
   background: #22272C;
   min-height: 700px;
   padding-top: 177px;
+  overflow-x: hidden;
 }
 
 .process__subtitle {
@@ -11,6 +12,12 @@
   color: #FFFFFF;
 }
 
+.process__text {
+  position: absolute;
+  white-space: nowrap;
+  top: 25%;
+  left: 500%;
+}
 
 .process__title {
   white-space: nowrap;
@@ -66,9 +73,4 @@
   position: absolute;
   top: -40%;
   left: -13%;
-  font-weight: 500;
-  font-size: 100px;
-  line-height: 145%;
-  color: #FFFFFF;
-  opacity: 0.02;
 }

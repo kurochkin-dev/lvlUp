@@ -1,0 +1,126 @@
+.designs-stages {
+  min-height: 620px;
+  background: #22272C;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+
+.designs-stages__one-wrap {
+  position: relative;
+  margin-bottom: 69px;
+}
+
+.designs-stages__two-wrap {
+  position: relative;
+  margin-bottom: 69px;
+}
+
+.designs-stages__three-wrap {
+  position: relative;
+}
+
+.designs-stages__four-wrap {
+  position: relative;
+}
+
+.designs-stages__number {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  bottom: 30%;
+  left: -13%;
+}
+
+.designs-stages__number-two {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  bottom: 30%;
+  left: -13%;
+}
+
+.designs-stages__number-three {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  bottom: 30%;
+  left: -13%;
+}
+
+.designs-stages__number-four {
+  position: absolute;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  bottom: 30%;
+  left: -13%;
+}
+
+.designs-stages__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.designs-stages__desc {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+}
+
+.designs-stages__title {
+  margin: 0 0 44px 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  &::after {
+    position: absolute;
+    top: 25px;
+    left: -4%;
+    display: block;
+    content: '';
+    height: 10px;
+    width: 0;
+    background-color: rgba(9, 185, 197, 0.7);
+    transition: width 300ms linear;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    width: 100%;
+  }
+
+  &:hover {
+    color: #FFFFFF;
+  }
+}
+
+
+.designs-stages__text {
+  position: absolute;
+  white-space: nowrap;
+  bottom: 50px;
+  right: -380px;
+  transform: rotate(90deg);
+}
+

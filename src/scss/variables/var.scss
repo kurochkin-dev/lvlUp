@@ -23,3 +23,31 @@
     color: #136F75;
   }
 }
+
+.nums {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+}
+
+.vertical-header {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 145%;
+  color: #FFFFFF;
+  opacity: 0.02;
+  transform: rotate(-90deg);
+}
+
+.line {
+  left: 8%;
+  top: 33.1%;
+  width: 390px;
+  height: 10px;
+  margin: 0;
+  border: none;
+  background: #09B9C5;
+  transform: rotate(-90deg);
+}

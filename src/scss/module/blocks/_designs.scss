@@ -1,0 +1,37 @@
+.designs {
+  min-height: 478px;
+  background: #282C30;
+  padding-top: 120px;
+  position: relative;
+}
+
+.designs__text {
+  position: absolute;
+  bottom: 30px;
+  left: -280px;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+}
+
+.designs__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.designs__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+  margin-bottom: 30px;
+}
+
+.designs__main-list {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  width: 161px;
+}

@@ -1,8 +1,9 @@
 <section class="services">
-    <h1 class="services__title">Мы делаем</h1>
+
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <p class="services__text vertical-header">Мы делаем</p>
                 <p class="services__subtitle">Наши услуги</p>
             </div>
             <div class="col-12 col-lg-3 col-xl-3 col-md-3 col-sm-12">
@@ -11,13 +12,13 @@
                         <a class="main-list__link" href="page-development.php">Разработка</a>
                     </li>
                     <li class="main-list__item">
-                        <a class="main-list__link" href="#">Дизайн</a>
+                        <a class="main-list__link" href="page-design.php">Дизайн</a>
                     </li>
                     <li class="main-list__item">
-                        <a class="main-list__link" href="#">Продвижение</a>
+                        <a class="main-list__link" href="page-promo.php">Продвижение</a>
                     </li>
                     <li class="main-list__item">
-                        <a class="main-list__link" href="#">Поддержка</a>
+                        <a class="main-list__link" href="page-support.php">Поддержка</a>
                     </li>
                 </ul>
             </div>

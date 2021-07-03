@@ -3,10 +3,10 @@ include 'module/header.php'
 ?>
 
 <section class="create create-about">
-    <hr class="create__line">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                <hr class="create__line create-about__line">
                 <h1 class="create__title create-about__title">Мы добиваемся долгосрочных результатов
                     и несем за них ответственность.</h1>
                 <button class="create__btn create-about__btn btn">Заказать сайт</button>
@@ -16,26 +16,26 @@ include 'module/header.php'
     <img class="create__d-circle" src="../assets/img/d-ellipse.svg" alt="Круг">
 </section>
 <section class="team">
-    <hr class="team__line">
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <hr class="team__line">
                 <p class="team__slogan">
                     Каждый член нашей команды имеет большой опыт работы в своей области, что позволяет нам сочетать стратегический подход и сильное производство.
                 </p>
             </div>
             <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <img src="../assets/img/team1.svg" alt="" class="team__img">
+                <img src="../assets/img/team1.svg" alt="Команда LVL UP" class="team__img">
                 <p class="team__title">Наумов Александр</p>
                 <p class="team__desc">Директор / Разработчик</p>
             </div>
             <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <img src="../assets/img/team2.svg" alt="" class="team__img">
+                <img src="../assets/img/team2.svg" alt="Команда LVL UP" class="team__img">
                 <p class="team__title">Иванова Наталья</p>
                 <p class="team__desc">SMM / Marketing / Analytics</p>
             </div>
             <div class=" col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <img src="../assets/img/team3.svg" alt="" class="team__img">
+                <img src="../assets/img/team3.svg" alt="Команда LVL UP" class="team__img">
                 <p class="team__title">Ксенофонтова Алевтина</p>
                 <p class="team__desc">Web / UX / UI дизайнер</p>
             </div>
@@ -43,10 +43,12 @@ include 'module/header.php'
     </div>
 </section>
 <section class="clients">
-    <p class="clients__title">Клиенты</p>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-xl-2 col-lg-2 col-md-12"><p class="clients__subtitle">Наши клиенты</p></div>
+            <div class="col-12 col-xl-2 col-lg-2 col-md-12">
+                <p class="clients__text vertical-header">Клиенты</p>
+                <p class="clients__subtitle">Наши клиенты</p>
+            </div>
             <div class="col-12 col-xl-7 col-lg-7 col-md-7 col-sm-12">
                 <p class="clients__desc">
                     Наша компания существует относительно недавно, но уже успела отличится в иностранных фирмах

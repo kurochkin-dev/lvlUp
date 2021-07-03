@@ -1,0 +1,38 @@
+.support {
+  min-height: 500px;
+  padding-top: 120px;
+}
+
+.support__text {
+  position: absolute;
+  white-space: nowrap;
+  top: 25%;
+  left: -150%;
+  transform: rotate(-90deg);
+}
+
+.support__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.support__main-list {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  max-width: 249px;
+}
+
+.support__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+}
+
+.support__button {
+  margin-top: 82px;
+}

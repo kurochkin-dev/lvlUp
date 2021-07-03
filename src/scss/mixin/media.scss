@@ -1,10 +1,19 @@
 .container {
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 @media (max-width: 1200px) {
+  .nums {
+    display: none;
+  }
+
+  .vertical-header {
+    display: none;
+  }
+
   .nav__list-hamburger {
     justify-content: center;
   }
@@ -37,6 +46,23 @@
   .clients-img {
     margin-right: 12px;
   }
+
+  //page-promo.php
+
+  .promo-stages__one-wrap {
+    margin-bottom: 90px;
+  }
+
+  .promo-stages__two-wrap {
+    margin-bottom: 22px;
+  }
+
+  //page-case.php
+
+  .create-case__img {
+    display: none;
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -94,22 +120,57 @@
 
   //page-development.php
 
+  .create-dev__title {
+    margin: 40px 0 0 0;
+    line-height: 110%;
+  }
+
   .stages {
     padding-top: 40px;
   }
 
-  .block-limiter {
-    margin-top: 20px;
-  }
+  //.block-limiter {
+  //  margin-top: 20px;
+  //}
 
   .stages__title {
     padding-bottom: 15px;
   }
 
+  //page-design.php
+
+  .designs-stages__title {
+    margin: 0 0 20px 0;
+  }
+
+  .designs-stages__one-wrap {
+    margin-bottom: 30px;
+  }
+
+  .designs-stages__two-wrap {
+    margin-bottom: 30px;
+  }
+
+  .designs-stages__three-wrap {
+    margin-bottom: 30px;
+  }
+
+  //page-promo.php
+
+  .promo-stages__one-wrap {
+    margin-bottom: 50px;
+  }
+
+  //page-support.php
+
+  .support-stages__one-wrap {
+    margin-bottom: 30px;
+  }
+
 }
 
 
-@media (max-width: 767.9px) {
+@media (max-width: 768px) {
   // Стили для гамбургера
 
   .nav__list-hamburger {
@@ -357,10 +418,58 @@
     white-space: nowrap;
   }
 
-  //page-devbeloppment.php
+  //page-development.php
 
   .stages__text {
     display: none;
+  }
+
+  .sites {
+    padding-top: 40px;
+  }
+
+  .stages__two-wrap {
+    margin-top: 40px;
+  }
+
+  .stages__three-wrap {
+    margin-top: 40px;
+  }
+
+  .stages__five-wrap {
+    margin-top: 40px;
+  }
+
+  .stages__six-wrap {
+    margin-top: 40px;
+  }
+
+  //page-designs.php
+  .designs {
+    padding-top: 70px;
+  }
+
+  .designs-stages {
+    padding-top: 50px;
+  }
+
+  //page-promo.php
+  .promo {
+    padding-top: 50px;
+  }
+
+  .promo-stages {
+    padding-top: 50px;
+  }
+
+  //page-support.php
+
+  .support-stages {
+    padding-top: 50px;
+  }
+
+  .support {
+    padding-top: 50px;
   }
 }
 
@@ -397,6 +506,12 @@
   }
 
   // page-about.php
+
+  //page-development.php
+  .create-dev__title {
+    margin: 80px 0 0 0;
+  }
+
 
 
 }
@@ -482,12 +597,15 @@
     //display: none;
   }
 
-
 }
 
-@media (max-width: 411px) {
+@media (max-width: 415px) {
   .container {
     //width: 400px;
+  }
+
+  .advantages__button {
+    margin-top: 5px;
   }
 
 }
@@ -569,6 +687,7 @@
   .container {
     //width: 350px;
   }
+
   .studio__wrap {
     margin-top: 50px;
   }
@@ -639,11 +758,15 @@
   .create-about {
     padding-top: 50px;
   }
+
+  //page-development.php
+
+
 }
 
 @media (max-width: 320px) {
-  html {
-    //overflow-x: hidden;
+  html, body {
+    overflow-x: hidden;
   }
   .container {
     //width: 315px;
@@ -666,7 +789,7 @@
   }
 
   .mod-block__wrap {
-    width: 310px;
+    max-width: 310px;
   }
 
   // page-services.php
@@ -707,14 +830,34 @@
   .footer__wrap {
     width: 310px;
   }
+
+  //page-promo.php
+
+  .create-promo__title {
+    font-size: 46px;
+  }
+
+  .main-list__link {
+    margin: 0;
+    font-size: 27px;
+  }
 }
 
 @media (max-width: 280px) {
+  html, body {
+    overflow-x: hidden;
+  }
   .container {
     //width: 280px;
   }
 
+  .create__title {
+    width: 270px;
+  }
+
   .studio__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 260px;
   }
 
@@ -826,5 +969,20 @@
 
   .we__title {
     white-space: normal;
+  }
+
+  //page-promo.php
+
+  .create-promo__title {
+    font-size: 40px;
+    margin-top: 80px;
+  }
+
+  .create-promo__btn {
+    margin-top: 40px;
+  }
+
+  .main-list__link {
+    font-size: 23px;
   }
 }

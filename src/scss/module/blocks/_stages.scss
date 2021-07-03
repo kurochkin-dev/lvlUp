@@ -3,17 +3,15 @@
   background: #22272C;
   position: relative;
   padding-top: 172px;
+  overflow-x: hidden;
 }
 
 .stages__text {
   position: absolute;
-  font-weight: 500;
-  font-size: 100px;
-  line-height: 145%;
-  color: #FFFFFF;
-  opacity: 0.02;
+  white-space: nowrap;
   top: 35%;
-  right: 0;
+  right: -1380px;
+  margin: 0;
   transform: rotate(90deg);
 }
 
@@ -85,33 +83,18 @@
 
 .stages__number {
   position: absolute;
-  font-weight: 500;
-  font-size: 100px;
-  line-height: 145%;
-  color: #FFFFFF;
-  opacity: 0.02;
   left: -16%;
   bottom: 40%;
 }
 
 .stages__number-two {
   position: absolute;
-  font-weight: 500;
-  font-size: 100px;
-  line-height: 145%;
-  color: #FFFFFF;
-  opacity: 0.02;
   left: -16%;
   bottom: 55%;
 }
 
 .stages__number-three {
   position: absolute;
-  font-weight: 500;
-  font-size: 100px;
-  line-height: 145%;
-  color: #FFFFFF;
-  opacity: 0.02;
   left: -16%;
   bottom: 55%;
 }

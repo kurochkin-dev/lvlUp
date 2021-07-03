@@ -1,0 +1,68 @@
+.support-stages {
+  min-height: 736px;
+  background: #22272c;
+  padding-top: 120px;
+  position: relative;
+}
+
+.support-stages__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #FFFFFF;
+}
+
+.support-stages__title {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.support-stages__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #CCCCCC;
+  max-width: 390px;
+}
+
+.support-stages__one-wrap {
+  position: relative;
+  margin-bottom: 148px;
+}
+
+.support-stages__two-wrap {
+  position: relative;
+}
+
+.support-stages__three-wrap {
+  position: relative;
+}
+
+.support-stages__number-one {
+  position: absolute;
+  left: -15%;
+  bottom: 30%;
+}
+
+.support-stages__number-two {
+  position: absolute;
+  left: -15%;
+  bottom: 50%;
+}
+
+.support-stages__number-three {
+  position: absolute;
+  left: -15%;
+  bottom: 30%;
+}
+
+.support-stages__text {
+  position: absolute;
+  transform: rotate(-270deg);
+  bottom: 40%;
+  right: 0;
+  margin: 0;
+}
